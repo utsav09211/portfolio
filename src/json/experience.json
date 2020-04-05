@@ -1,0 +1,66 @@
+[
+  {
+    "company": "@Relay Limited",
+    "dates": "August 2019 — Present",
+    "position": "Chief Technology Officer",
+    "copy": "At Relay, I am responsible for developing, managing and looking after the entire technical stack. From making decisions about what technology to use, what desing pattern to follow, to making it happen.",
+    "jobFeatures": [
+      "Java",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Architecture",
+      "CI/CD",
+      "React",
+      "Neo4j"
+    ],
+    "open": true
+  },
+  {
+    "company": "@Paymark",
+    "dates": "November 2016 — August 2018",
+    "position": "Software Engineer",
+    "copy": "I was involved in multiple projects at Paymark, One of them being Online Eftpos, which allows a user to pay by just using their mobile number. Other project was to move our entire platform to Containers",
+    "jobFeatures": [
+      "Docker",
+      "Microservices",
+      "AWS",
+      "Serverless",
+      "Apigee",
+      "Java",
+      "MySql"
+    ],
+    "open": false
+  },
+  {
+    "company": "@Raremile Technologies",
+    "dates": "August 2014 — October 2016",
+    "position": "Technical Specialist",
+    "copy": "At Raremile I worked for numerous number of client from overseas, building web and enterprise applications to meet their demands",
+    "jobFeatures": [
+      "Java",
+      "Mule",
+      "Python",
+      "MySql",
+      "AWS",
+      "JavaScript"
+    ],
+    "open": false
+  },
+  {
+    "company": "@Wipro Limited",
+    "dates": "May 2012 — August 2014",
+    "position": "Project Engineer",
+    "copy": "This was my first job, initially I was trained for 3 months on Core Java and I aced my training with 93% and was the top scorer for the company. In my 2 years span I worked for various clients ranging from healthcare domain to networking domain",
+    "jobFeatures": [
+      "CoreJava",
+      "Scripting",
+      "DataStructures",
+      "SoapUI",
+      "HTML",
+      "JavaScript"
+    ],
+    "open": false
+  }
+]

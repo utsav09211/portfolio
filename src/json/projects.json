@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Relay App",
+    "classes": "featured feature-1",
+    "description": "Relay is the payments platform that smart businesses use to control cash flow, get paid quickly and pay suppliers securely. Built this application using spring boot and neo4j as database. Also did various integrations with Account providers like MYOB, Xero, BNZ, ASB, Hosted the entire application in a very cost effective manner on EKS, AWS",
+    "techList": [
+      "Springboot",
+      "REST",
+      "Neo4j",
+      "Python",
+      "Docker",
+      "EKS",
+      "AWS",
+      "Microservice",
+      "CI/CD",
+      "Gitlab"
+    ],
+    "img": "relay-logo.png",
+    "siteLink": "https://relay.ai/",
+    "featured": true
+  },
+  {
+    "title": "Social Survey",
+    "classes": "project",
+    "description": "SocialSurvey’s cloud-based platform takes the hard work and guesswork out of Experience Management, helping businesses turn great customer experiences into bottom line profits. ",
+    "techList": [
+      "Java",
+      "Spring",
+      "Multithreading",
+      "Github"
+    ],
+    "img": "socialsurvey.png",
+    "siteLink": "https://www.socialsurvey.com/",
+    "featured": false
+  },
+  {
+    "title": "Newfi",
+    "classes": "project",
+    "description": "Newfi lending provides a mortgage experience through a combination of proprietary technology and product innovation. national lender, Newfi provides a more efficient and transparent transaction resulting in higher levels of customer satisfaction and trust.",
+    "techList": [
+      "Java",
+      "Multithreading",
+      "Spring",
+      "Mule ESB",
+      "Github",
+      "AWS"
+    ],
+    "img": "newfi-logo.png",
+    "siteLink": "https://newfi.com/",
+    "featured": false
+  },
+  {
+    "title": "Online Eftpos",
+    "classes": "feature-2 featured",
+    "description": "Online EFTPOS enables your customers to pay online using their smartphone. Not only is it fast and easy, it's also one of the most secure payment methods available today. Customers simply enter their mobile phone number on your payments page and then approve the payment within their mobile banking app. That's it. We never ask your customers to expose their payment or online banking credentials.",
+    "techList": [
+      "Microservice",
+      "REST",
+      "Java",
+      "Python",
+      "AWS",
+      "Serverless",
+      "Gradle",
+      "Apigee",
+      "CI/CD",
+      "Jenkins"
+    ],
+    "img": "onlineeftpos.png",
+    "siteLink": "https://www.paymark.co.nz/products/online-eftpos/",
+    "featured": true
+  },
+  {
+    "title": "Chrome River",
+    "classes": "project",
+    "description": "Chrome River is part of Emburse, a global leader in expense management and AP automation solutions, which is trusted by more than 4.5 million users in more than 120 countries.",
+    "techList": [
+      "Selenium",
+      "Robot",
+      "Python",
+      "Automation Testing",
+      "Github"
+    ],
+    "img": "chromeriver.png",
+    "siteLink": "https://www.chromeriver.com/",
+    "featured": false
+  }
+]
