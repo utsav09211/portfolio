@@ -6,7 +6,7 @@ import {  Section, theme } from '../styles'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Recommendation from './Recommendation'
+import Recommendation from './recommendation/Recommendation'
 
 const Title = styled.h2`
   color: ${theme.colors.dark};
