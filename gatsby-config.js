@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Utsav Sharma - Technical Specialist`,
-    description: `Cade Kynaston is a software developer based in Salt Lake City, Utah. He is currently focused on using React and Gatsby to create extremely fast and responsive websites`,
+    description: `A technical enthusiast, with tremendous experience in backend development. Skilled with lot of experience in Java, Microservices, Apigee, AWS, Kubernetes, Python`,
     author: `@utsavsharma`,
     url: `https://utsavsharma.io`,
   },
@@ -55,7 +55,7 @@ module.exports = {
         background_color: `#1E2749`,
         theme_color: `#1E2749`,
         display: `minimal-ui`,
-        icon: `src/images/ck-logo-light.png`, // This path is relative to the root of the site.
+        icon: `src/images/utsav-logo-white.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-json`,

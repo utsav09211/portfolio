@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 import { Link , Events } from 'react-scroll'
 
 import { theme, media } from '../styles'
-import logoLight from '../images/ck-logo-light.svg'
-import logoDark from '../images/ck-logo-dark.svg'
+import logoLight from '../images/utsav-logo-white.png'
+import logoDark from '../images/utsav-logo-dark.png'
 import SocialIconLinks from './socialIconLinks';
 
 const Nav = styled.nav`
@@ -46,8 +46,8 @@ const NavContainer = styled.div`
 `
 
 const NavLogo = styled.img`
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
 `
 
 const MobileNavContainer = styled.div`

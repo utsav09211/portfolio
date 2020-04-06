@@ -2,8 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 import { Element } from 'react-scroll'
 import ScrollReveal from 'scrollreveal'
-import { Container, Section, theme, media } from '../styles'
-import Image from './image'
+import {  Section, theme } from '../styles'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,31 +12,6 @@ const Title = styled.h2`
   color: ${theme.colors.dark};
   margin-bottom: 20px;
 `;
-
-const Copy = styled.h5`
-  color: ${theme.colors.dark};
-  font-size: 22x;
-`
-
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  a {
-    color: ${theme.colors.mayerPurple};
-    text-decoration: underline;
-  }
-
-
-  ${media.medium} {
-    flex-direction: column;
-  }
-`
-
-const ImageContainer = styled.div`
-  width: 100%;
-`
 
 const SliderContainer = styled.div`
   width: 100%
@@ -67,11 +41,6 @@ function SamplePrevArrow(props) {
 
 class Recommendations extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
-
-
   componentDidMount = () => {
     ScrollReveal().reveal(this.refs.connect, theme.scrollRevealConfig)
     ScrollReveal().reveal(this.refs.image, theme.scrollRevealConfig)
@@ -82,10 +51,8 @@ class Recommendations extends React.Component {
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
   }
-  
 
   render() {
-    
     const settings = {
       dots: true,
       infinite: true,
