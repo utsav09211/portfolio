@@ -11,6 +11,7 @@
     "core-js": "^3.6.4",
     "dayjs": "^1.8.23",
     "emotion-theming": "^10.0.27",
+    "font-awesome": "^4.7.0",
     "formsy-react": "^2.0.2",
     "gatsby": "^2.20.10",
     "gatsby-cli": "^2.11.5",

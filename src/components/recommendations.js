@@ -81,7 +81,7 @@ class Recommendations extends React.Component {
 
         <div ref="recommendations">
           <SliderContainer>
-            <Title>Testimonials</Title>
+            <Title>What People Have To Say</Title>
             <br />
             <Slider {...settings}>
               {this.props.data.map((recommendationNode, i) => {

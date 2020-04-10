@@ -2,6 +2,7 @@ import React from "react";
 
 import styled from "@emotion/styled";
 import { theme } from "../styles";
+import 'font-awesome/css/font-awesome.min.css';
 
 const Copy = styled.h5`
   color: ${theme.colors.light};
@@ -47,7 +48,7 @@ class Recommendation extends React.Component {
           <i class="fa fa-quote-left fa-2x" aria-hidden="true" />
         </span>
         <Copy>{this.props.message}</Copy>
-        <span style={{ color: "#FED766" }}>
+        <span style={{ color: "#FED766"}}>
           <i class="fa fa-quote-right fa-2x" aria-hidden="true" />
         </span>
         </InfoContainer>
