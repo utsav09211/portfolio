@@ -37,9 +37,6 @@ const InfoContainer = styled.div`
 `;
 
 class Recommendation extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <SliderContainer>
